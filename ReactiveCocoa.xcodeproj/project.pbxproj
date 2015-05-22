@@ -1848,6 +1848,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
 				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
 			name = Debug;
@@ -1860,6 +1862,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
 				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
 			name = Release;
@@ -1945,6 +1949,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
 				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
 			name = Profile;
@@ -2015,6 +2021,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
 				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
 			name = Test;
