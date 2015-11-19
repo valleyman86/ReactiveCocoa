@@ -2061,6 +2061,160 @@
 			};
 			name = Test;
 		};
+		D418FBEF1BFD79DC002CDB85 /* Production Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D047262B19E49FE8006002AA /* Release.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Production Release";
+		};
+		D418FBF01BFD79DC002CDB85 /* Production Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D047263A19E49FE8006002AA /* Mac-Framework.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactivecocoa.$(PRODUCT_NAME:rfc1034identifier)";
+				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
+			};
+			name = "Production Release";
+		};
+		D418FBF11BFD79DC002CDB85 /* Production Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D047263719E49FE8006002AA /* Mac-Application.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReactiveCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactivecocoa.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = "Production Release";
+		};
+		D418FBF21BFD79DC002CDB85 /* Production Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D047263419E49FE8006002AA /* iOS-Framework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactivecocoa.$(PRODUCT_NAME:rfc1034identifier)";
+				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
+			};
+			name = "Production Release";
+		};
+		D418FBF31BFD79DC002CDB85 /* Production Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D047263219E49FE8006002AA /* iOS-Application.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReactiveCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactivecocoa.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = "Production Release";
+		};
+		D418FBF41BFD79EC002CDB85 /* Production Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D047262919E49FE8006002AA /* Debug.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Production Debug";
+		};
+		D418FBF51BFD79EC002CDB85 /* Production Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D047263A19E49FE8006002AA /* Mac-Framework.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactivecocoa.$(PRODUCT_NAME:rfc1034identifier)";
+				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
+			};
+			name = "Production Debug";
+		};
+		D418FBF61BFD79EC002CDB85 /* Production Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D047263719E49FE8006002AA /* Mac-Application.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReactiveCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactivecocoa.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Production Debug";
+		};
+		D418FBF71BFD79EC002CDB85 /* Production Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D047263419E49FE8006002AA /* iOS-Framework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactivecocoa.$(PRODUCT_NAME:rfc1034identifier)";
+				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
+			};
+			name = "Production Debug";
+		};
+		D418FBF81BFD79EC002CDB85 /* Production Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D047263219E49FE8006002AA /* iOS-Application.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReactiveCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactivecocoa.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Production Debug";
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2068,8 +2222,10 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D04725FE19E49ED7006002AA /* Debug */,
+				D418FBF41BFD79EC002CDB85 /* Production Debug */,
 				D047264219E4A00B006002AA /* Test */,
 				D04725FF19E49ED7006002AA /* Release */,
+				D418FBEF1BFD79DC002CDB85 /* Production Release */,
 				D047263D19E4A008006002AA /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2079,8 +2235,10 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D047260119E49ED7006002AA /* Debug */,
+				D418FBF51BFD79EC002CDB85 /* Production Debug */,
 				D047264319E4A00B006002AA /* Test */,
 				D047260219E49ED7006002AA /* Release */,
+				D418FBF01BFD79DC002CDB85 /* Production Release */,
 				D047263E19E4A008006002AA /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2090,8 +2248,10 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D047260419E49ED7006002AA /* Debug */,
+				D418FBF61BFD79EC002CDB85 /* Production Debug */,
 				D047264419E4A00B006002AA /* Test */,
 				D047260519E49ED7006002AA /* Release */,
+				D418FBF11BFD79DC002CDB85 /* Production Release */,
 				D047263F19E4A008006002AA /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2101,8 +2261,10 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D047262019E49F82006002AA /* Debug */,
+				D418FBF71BFD79EC002CDB85 /* Production Debug */,
 				D047264519E4A00B006002AA /* Test */,
 				D047262119E49F82006002AA /* Release */,
+				D418FBF21BFD79DC002CDB85 /* Production Release */,
 				D047264019E4A008006002AA /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -2112,8 +2274,10 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D047262319E49F82006002AA /* Debug */,
+				D418FBF81BFD79EC002CDB85 /* Production Debug */,
 				D047264619E4A00B006002AA /* Test */,
 				D047262419E49F82006002AA /* Release */,
+				D418FBF31BFD79DC002CDB85 /* Production Release */,
 				D047264119E4A008006002AA /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
